@@ -1,0 +1,6 @@
+{
+  "name": "Feel at Home",
+  "description": "Housing discovery and accommodation platform for Greater Cairo. A home easy to find, safe to stay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

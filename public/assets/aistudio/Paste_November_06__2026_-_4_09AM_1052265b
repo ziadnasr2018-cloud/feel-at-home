@@ -1,0 +1,1173 @@
+تمام، ده البرومبت الكامل بعد دمج كل التعديلات والملاحظات اللي اتكلمنا فيها، ومكتوب بالإنجليزي عشان Google AI Studio يفهم متطلبات التطوير بشكل أدق.&#x20;
+
+قبل ما تبعته: ارفع صور الـReferences اللي بعتها هنا مع البرومبت، وخليه يشتغل على المشروع الحالي ويحافظ على الـMap والـGemini والـChatbot الموجودين، بدل ما يبدأ من الصفر.
+
+# FEEL AT HOME — COMPLETE PRODUCT DEVELOPMENT & IMPROVEMENT PROMPT
+
+## Google AI Studio — Build Mode
+
+You are an experienced senior full-stack developer, product designer, UI/UX specialist, and AI integration engineer.
+
+Your task is to improve and extend the existing **Feel at Home** application directly inside Google AI Studio Build mode.
+
+This is an existing project. Do NOT rebuild it from scratch or replace its working features with static mockups.
+
+Your goal is to turn Feel at Home into a polished, modern, reliable, bilingual Egyptian housing and accommodation platform, with an excellent user experience and a distinctive visual identity.
+
+---
+
+# 1. PROJECT IDENTITY
+
+**Official Name:** Feel at Home
+
+**Official Slogan:**\
+"A home easy to find, safe to stay."
+
+**Main Concept:**
+
+Feel at Home is a platform that helps students, graduates, interns, young professionals, and adults relocating to a new city find suitable accommodation and feel at home.
+
+The platform brings together:
+
+- Private apartments.
+- Private rooms.
+- Shared apartments.
+- Shared rooms.
+- Roommate discovery.
+- Host Family accommodation.
+- Family Scholarship opportunities.
+
+The platform initially focuses on Greater Cairo and nearby areas, with the potential to expand to other Egyptian governorates.
+
+**Geographical coverage must include:**
+
+- Cairo.
+- Giza.
+- Qalyubia.
+- Shubra El-Kheima.
+- Benha.
+- Other relevant Greater Cairo and nearby university areas.
+
+Do not limit the platform to Cairo city alone.
+
+---
+
+# 2. FIRST: INSPECT THE EXISTING PROJECT
+
+Before changing anything, inspect the complete existing application.
+
+Understand:
+
+- Existing frontend structure.
+- Existing backend and database.
+- Authentication system.
+- Current map implementation.
+- Current Gemini API integration.
+- Existing chatbot.
+- Housing listing components.
+- Existing search and filtering functionality.
+- Existing user profiles.
+- Existing routes and navigation.
+- Current API keys and environment variables.
+
+Important instructions:
+
+1. Preserve the existing interactive map and its working functionality.
+2. Preserve the existing Gemini integration.
+3. Preserve and improve the current chatbot.
+4. Do not remove working features.
+5. Do not introduce duplicate functionality.
+6. Do not replace functional components with decorative UI.
+7. Reuse the current architecture whenever possible.
+8. Do not expose API keys or credentials.
+9. If a required integration is not configured, build the appropriate interface and clearly identify what configuration is still required.
+
+Make changes carefully and test them.
+
+---
+
+# 3. VISUAL IDENTITY & UI/UX DESIGN
+
+The current interface should become lighter, more elegant, more modern, and more professional.
+
+The website must feel like a premium housing and lifestyle platform, not a traditional bulky real estate website.
+
+## Design direction
+
+Use a combination of:
+
+- Modern editorial design.
+- Elegant typography.
+- Clean layouts.
+- Soft rounded corners.
+- Subtle shadows.
+- Beautiful whitespace.
+- High-quality real-life photography.
+- Carefully balanced colors.
+- Smooth and subtle animations.
+
+Avoid:
+
+- Heavy layouts.
+- Excessive card borders.
+- Too many elements stacked vertically.
+- Oversized buttons.
+- Overly colorful interfaces.
+- Unnecessary gradients.
+- Generic dashboard designs.
+- Cluttered navigation.
+
+## Color palette
+
+Create a cohesive visual identity using a sophisticated combination of:
+
+- Soft lavender / light mauve.
+- Warm off-white.
+- Cream.
+- Muted dusty rose.
+- Deep plum or dark charcoal.
+- Subtle warm beige.
+
+Suggested direction:
+
+- Background: warm ivory.
+- Primary accent: muted mauve / dusty rose.
+- Secondary accent: soft lavender.
+- Main text: deep charcoal.
+- Cards: warm white.
+- Dark sections: deep plum.
+
+The palette should feel welcoming, calm, elegant, Egyptian-inspired, and professional.
+
+Do not use bright purple or overly saturated colors.
+
+Keep the palette consistent across the entire application.
+
+## Logo
+
+Create a simple, memorable brand mark.
+
+The logo should be:
+
+- A small house icon.
+- A heart integrated inside the house.
+- Minimal and elegant.
+- Easy to recognize.
+- Suitable for the navbar, footer, browser icon, and mobile interface.
+
+Display the logo next to the name **Feel at Home**.
+
+## Typography
+
+Use an elegant editorial-style heading font paired with a clean, readable body font.
+
+Support both Arabic and English typography properly.
+
+Arabic typography must be professional and comfortable to read.
+
+---
+
+# 4. HOMEPAGE STRUCTURE
+
+Build a visually impressive homepage with clearly separated sections.
+
+Do not put everything into one long, crowded section.
+
+## A. Navigation Bar
+
+Include:
+
+- Feel at Home logo and name.
+- Find a Home.
+- Find a Roommate.
+- Host Families.
+- Scholarships.
+- Safety.
+- About.
+- List Your Property.
+- Sign In / Create Account.
+- Language switcher: Arabic / English.
+
+The navigation should be clean, responsive, and easy to use.
+
+## B. Hero Section
+
+Use an elegant two-column layout.
+
+Left side:
+
+Headline:
+
+"A home easy to find, safe to stay."
+
+Supporting text:
+
+"Moving to a new city for university, work, or an internship? Feel at Home brings apartments, rooms, shared housing, and host family opportunities together in one welcoming place."
+
+Add a prominent search interface with:
+
+- Location or university.
+- Governorate / area.
+- Accommodation type.
+- Maximum monthly budget.
+- Search button.
+
+Include clear calls to action:
+
+- Find a Home.
+- Find a Roommate.
+- Explore Host Families.
+
+Right side:
+
+Use a beautiful, realistic photograph of a real Egyptian-style home interior.
+
+The image should feel authentic, warm, comfortable, and believable.
+
+## C. Main Service Categories
+
+Present three or four visually balanced service cards:
+
+1. Find a Place.
+2. Find a Roommate.
+3. Host Family.
+4. Family Scholarship.
+
+Each card should have:
+
+- A simple icon.
+- A short title.
+- A clear description.
+- A functional navigation button.
+
+These services must feel like connected parts of one platform, not unrelated products.
+
+## D. Featured Homes
+
+Show featured housing listings from different Egyptian locations.
+
+Each listing should display:
+
+- Realistic property image.
+- Property type.
+- Location.
+- Monthly rent.
+- Number of rooms.
+- Furnishing status.
+- Available amenities.
+- Verification status.
+- Distance from selected university when available.
+- Save/favorite button.
+
+Clearly label sample listings as "Demo Data" so users do not mistake fictional listings for verified real properties.
+
+## E. How It Works
+
+Show a simple three-step journey:
+
+1. Search your way.
+2. Compare clearly.
+3. Connect and visit.
+
+## F. Why Feel at Home
+
+Explain the platform's value:
+
+- One organized place for housing discovery.
+- Designed for students and people relocating.
+- Easier roommate discovery.
+- Transparent listing information.
+- Multiple accommodation options.
+- Clear verification labels.
+
+## G. Safety Section
+
+Create a dedicated safety section.
+
+Include:
+
+- Visible verification status.
+- Report a listing.
+- Safety tips.
+- Reminders to visit the property before paying.
+- Reminders to confirm ownership and agreements.
+
+Never claim that a property is verified unless the verification process has actually been completed.
+
+Use honest labels:
+
+- Not Verified.
+- Verification Pending.
+- Verified.
+
+## H. Final Call to Action
+
+Headline:
+
+"Ready to feel at home?"
+
+Description:
+
+"Create a free account to save homes, connect with providers, discover roommates, and explore accommodation opportunities."
+
+Buttons:
+
+- Create a Free Account.
+- Browse First.
+
+## I. Footer
+
+Include:
+
+- Brand identity.
+- Official slogan.
+- Explore links.
+- Housing.
+- Roommates.
+- Host Families.
+- Scholarships.
+- Safety.
+- About.
+- Contact.
+- Greater Cairo, Egypt.
+
+---
+
+# 5. AUTHENTIC EGYPTIAN PHOTOGRAPHY
+
+This is a very important requirement.
+
+The website must use realistic Egyptian housing photographs.
+
+Do NOT use:
+
+- Unrealistic luxury villas everywhere.
+- Generic foreign apartments.
+- European-style interiors that do not represent Egyptian housing.
+- Artificial-looking AI-generated property photos.
+- Repeated images across different listings.
+
+Use authentic-looking Egyptian residential environments, including:
+
+- Normal Egyptian apartment buildings.
+- Realistic Cairo apartments.
+- Benha residential apartments.
+- Shared student accommodation.
+- Egyptian bedrooms.
+- Egyptian living rooms.
+- Realistic kitchens and bathrooms.
+- Typical furnished student rooms.
+- Family homes.
+
+The images should look like real photographs taken inside actual Egyptian properties.
+
+You may use legitimate image sources or generate realistic illustrative images where appropriate.
+
+Do not use a photograph to falsely imply that a specific real property has been visited or verified.
+
+Use different images for different properties.
+
+For the homepage, choose a warm, welcoming Egyptian home interior.
+
+For the listing cards, use realistic and varied property photographs.
+
+For Host Family pages, use authentic family-home environments and natural human scenes.
+
+For Scholarship pages, use welcoming and respectful images of adult students and host families.
+
+---
+
+# 6. HOUSING LISTINGS & SEARCH
+
+Build a functional housing discovery experience.
+
+Users should be able to search and filter by:
+
+- Governorate.
+- City.
+- Area.
+- University.
+- Property type.
+- Monthly budget.
+- Number of rooms.
+- Furnished / Unfurnished.
+- Gender preference where applicable.
+- Available amenities.
+- Distance from a selected university.
+- Verification status.
+
+Each property listing should have a detailed page.
+
+Include:
+
+- Property title.
+- Location.
+- Photos gallery.
+- Monthly price in EGP.
+- Description.
+- Number of rooms.
+- Available beds.
+- Furnishing.
+- Amenities.
+- Internet / Wi-Fi availability.
+- Kitchen.
+- Bathroom.
+- Air conditioning if available.
+- House rules.
+- Occupancy information.
+- Provider contact options.
+- Map location.
+- Verification status.
+
+Users should be able to save properties and compare options.
+
+Property owners or providers should be able to create and manage listings through their account.
+
+---
+
+# 7. INTERACTIVE MAP & UNIVERSITY PROXIMITY MATCHING
+
+The existing map is one of the strongest features of the current project.
+
+Preserve it and improve its design and usability.
+
+Do not remove the existing Gemini-powered map functionality.
+
+The map should help users understand where each property is located and how close it is to their university or preferred destination.
+
+## Map requirements
+
+- Display housing listings on an interactive map.
+- Allow users to select a university.
+- Allow users to search for a university or destination.
+- Show property locations.
+- Show distance from the selected university.
+- Display relevant information when clicking a map marker.
+- Allow users to navigate between map and listing views.
+- Make the map responsive on mobile.
+
+## University proximity matching
+
+Create a clear proximity matching score for each listing.
+
+For example:
+
+A user selects Cairo University as their preferred university.
+
+The platform compares the location of each property with Cairo University and calculates a proximity score.
+
+Example:
+
+- Property A: 99% proximity match.
+- Property B: 85% proximity match.
+- Property C: 50% proximity match.
+
+These values are illustrative examples, not predetermined results.
+
+The score must be calculated from actual distance data using a consistent, documented formula.
+
+Do not describe the score as a probability or guarantee.
+
+Label it clearly:
+
+"University Proximity Match"
+
+Also show the actual distance in kilometers.
+
+If possible, distinguish between:
+
+- Straight-line distance.
+- Estimated travel distance.
+- Estimated travel time.
+
+Only display travel time when reliable route data is available.
+
+The user should be able to sort listings by proximity score.
+
+## Demo housing data
+
+Create at least 10 realistic demo listings distributed across different locations.
+
+Use at least two listings in each of these areas:
+
+1. Cairo:
+   - Near Cairo University.
+   - Near Ain Shams University.
+2. Shubra El-Kheima:
+   - Two different realistic residential listings.
+3. Benha:
+   - Near Benha University, Faculty of Computers and Artificial Intelligence.
+   - Near Benha University, Faculty of Veterinary Medicine.
+4. Giza:
+   - Two listings in relevant Giza areas.
+5. Helwan:
+   - Near Helwan University.
+6. Smart Village:
+   - Near Smart Village.
+
+These are demo listings for demonstrating the platform.
+
+Use reasonable illustrative locations and prices, clearly marked as sample data.
+
+Do not claim that these are real available properties.
+
+Ensure the map displays all demo listings correctly.
+
+---
+
+# 8. ROOMMATE DISCOVERY
+
+Create a dedicated Find a Roommate experience.
+
+Users should be able to discover potential roommates based on:
+
+- Preferred location.
+- University.
+- Monthly budget.
+- Gender preference where relevant.
+- Lifestyle preferences.
+- Smoking preferences.
+- Sleeping schedule.
+- Study habits.
+- Cleanliness preferences.
+- Preferred accommodation type.
+
+Create roommate profile cards displaying:
+
+- First name or display name.
+- Profile image or avatar.
+- University or workplace.
+- Preferred location.
+- Budget range.
+- Lifestyle preferences.
+- Short introduction.
+- Compatibility indicators.
+
+Build a simple compatibility score based on the preferences users actually provide.
+
+Clearly explain that compatibility is an estimate, not a guarantee.
+
+Users should be able to:
+
+- View profiles.
+- Save profiles.
+- Express interest.
+- Contact potential roommates through available platform functionality.
+
+Respect user privacy and only display information they choose to share.
+
+---
+
+# 9. HOST FAMILY ACCOMMODATION
+
+Introduce a dedicated but naturally integrated feature called:
+
+**Host Family**
+
+This feature allows adult students and adult individuals relocating to a new city to stay with Egyptian host families for a temporary or longer period.
+
+This is an accommodation and cultural exchange service.
+
+It is NOT child adoption, fostering, or guardianship.
+
+All participants must be adults.
+
+## Concept
+
+An adult student or relocating person can apply to stay with a host family.
+
+The family may provide:
+
+- A private room.
+- A shared room.
+- Meals.
+- Internet.
+- Laundry access.
+- Shared living spaces.
+- A welcoming family environment.
+- Optional cultural support.
+
+## Hosting duration
+
+Allow different hosting arrangements:
+
+- Two months.
+- One academic term.
+- Six months.
+- One full year.
+- Custom duration.
+
+## Payment models
+
+Not all host families need to charge the same amount.
+
+Support different arrangements:
+
+1. Free hosting.
+2. Accommodation-only payment.
+3. Accommodation with meals.
+4. Monthly payment.
+5. Term-based payment.
+6. Annual payment.
+7. Custom arrangements.
+
+The platform should clearly display the financial arrangement before a user applies.
+
+Do not assume every family provides free accommodation.
+
+## Host family listing information
+
+Each family listing should include:
+
+- Family or host profile.
+- Location.
+- Family size.
+- Number of household members.
+- Available rooms.
+- Number of available beds.
+- Whether the room is private or shared.
+- Household composition, where voluntarily provided.
+- Male / female accommodation preferences.
+- Internet availability.
+- Meals included or not.
+- Kitchen access.
+- Bathroom arrangements.
+- Laundry availability.
+- House rules.
+- Monthly / term / annual cost.
+- Hosting duration.
+- Available dates.
+- Distance from nearby universities.
+- Verification status.
+
+Example:
+
+"Welcoming family in Benha — Private furnished room, Wi-Fi, shared kitchen, breakfast available, close to Benha University."
+
+Another example:
+
+"Host family in Cairo — Shared accommodation for adult female students, furnished room, Wi-Fi, meals available, semester-based arrangement."
+
+These are sample listing examples only.
+
+## Host Family page design
+
+Make this feature visually integrated with the rest of the website.
+
+Do not make it look like a completely separate platform.
+
+Use warm, realistic photographs of Egyptian family homes.
+
+Show host family cards with clear information and pricing.
+
+Add a detailed family profile page and an application process.
+
+The application should allow the adult student to specify:
+
+- Preferred duration.
+- Preferred location.
+- University or workplace.
+- Budget.
+- Meal preferences.
+- Accommodation preferences.
+- Additional requirements.
+
+---
+
+# 10. FAMILY SCHOLARSHIP PROGRAM
+
+Create a separate feature called:
+
+**Family Scholarship**
+
+This is different from the paid Host Family accommodation service.
+
+The purpose is to help eligible adult students access accommodation through a sponsoring or hosting family.
+
+The program should support:
+
+- Egyptian families hosting adult students in Egypt.
+- Individuals or families living abroad who want to support adult students in Egypt.
+- Eligible international or Egyptian adult students who need accommodation support.
+
+The program may connect students with a family that offers free or subsidized accommodation.
+
+## How it works
+
+1. A family or sponsor creates a scholarship opportunity.
+2. The family describes the available support.
+3. An adult student creates an application.
+4. The student provides the required information.
+5. The family reviews applications.
+6. The student and family communicate through the platform.
+7. If both parties agree, they proceed with the arrangement.
+
+## Scholarship support types
+
+Allow different types of support:
+
+- Free accommodation.
+- Partially sponsored accommodation.
+- Accommodation with meals.
+- Accommodation and basic living support.
+- Full hosting support for an agreed period.
+
+## Scholarship duration
+
+Support:
+
+- Two months.
+- One academic term.
+- Six months.
+- One academic year.
+- Custom duration.
+
+## Scholarship application fields
+
+Include:
+
+- Student name.
+- Age confirmation (18+).
+- Nationality.
+- University or educational institution.
+- Study program.
+- Current location.
+- Requested accommodation location.
+- Requested duration.
+- Reason for applying.
+- Accommodation needs.
+- Supporting documents where required.
+- Contact information.
+
+## Family / Sponsor profile
+
+Include:
+
+- Family or sponsor name.
+- Country and city.
+- Whether the family is in Egypt or abroad.
+- Available support.
+- Number of supported students.
+- Duration.
+- Eligibility requirements.
+- Application deadline.
+- Verification status.
+
+## Important distinction
+
+The Family Scholarship must not be presented as a paid rental listing.
+
+It is a separate support opportunity.
+
+Keep its design consistent with Feel at Home, but give it a distinct identity and clear explanation.
+
+Use respectful, realistic imagery showing adult students and welcoming families.
+
+Do not imply that scholarships are guaranteed.
+
+---
+
+# 11. UNIFIED USER ACCOUNT SYSTEM
+
+This is a very important requirement.
+
+Do NOT create separate account modes called:
+
+- Seeker.
+- Provider.
+- Tenant.
+- Landlord.
+
+There must be one unified account system.
+
+Every user creates a normal account and can then use the relevant platform features.
+
+During registration, collect basic information such as:
+
+- Full name.
+- Email.
+- Password.
+- Phone number where appropriate.
+- Age confirmation (18+ where required).
+- Profile image (optional).
+- Current city.
+- University or workplace (optional).
+
+After registration, users can access the platform.
+
+A user may:
+
+- Search for accommodation.
+- Save properties.
+- Find roommates.
+- Publish a property listing.
+- Apply to Host Families.
+- Create a Host Family listing if eligible.
+- Apply for a Family Scholarship.
+- Publish or manage scholarship opportunities if eligible.
+
+Do not force users to choose a permanent account type during registration.
+
+Instead, allow them to use the relevant features from their unified account.
+
+Use appropriate permissions for managing listings and reviewing applications, without creating separate user account modes.
+
+---
+
+# 12. ARABIC-FIRST AI CHATBOT
+
+Preserve the existing chatbot and improve it.
+
+The chatbot should be powered by the existing Gemini integration.
+
+**The chatbot must communicate in Arabic only.**
+
+Important:
+
+- All chatbot responses must be in Arabic.
+- Do not mix Arabic and English in the same response.
+- Do not answer in English.
+- Use clear, friendly, natural Egyptian Arabic.
+- Understand Egyptian dialect and common Arabic expressions.
+- Use Arabic numerals or clear number formatting where appropriate.
+
+The chatbot should help users:
+
+- Find suitable apartments.
+- Discover rooms.
+- Find roommates.
+- Compare housing options.
+- Understand proximity scores.
+- Find Host Family opportunities.
+- Understand Family Scholarship opportunities.
+- Understand listing details.
+- Learn about safety precautions.
+- Navigate the platform.
+
+When possible, connect the chatbot to the application's real listing data.
+
+Do not let it invent properties, prices, availability, or verification statuses.
+
+If it does not have enough information, it should say so clearly.
+
+The chatbot should have a friendly and professional personality.
+
+Its purpose is to help users feel comfortable and supported.
+
+---
+
+# 13. FULL ARABIC / ENGLISH LANGUAGE SWITCHING
+
+The entire website must support Arabic and English.
+
+Add a visible language switcher in the top navigation.
+
+It should allow users to switch between:
+
+- العربية
+- English
+
+When Arabic is selected:
+
+- The entire interface switches to Arabic.
+- The layout changes to RTL.
+- Navigation alignment is adjusted.
+- Forms and inputs support RTL.
+- Cards and buttons are properly aligned.
+- Arabic fonts are used.
+- All labels and messages are translated.
+
+When English is selected:
+
+- The interface switches to English.
+- The layout changes to LTR.
+- English typography and alignment are restored.
+
+The language preference should persist while navigating between pages and, if possible, across sessions.
+
+Important distinction:
+
+The website supports Arabic and English.
+
+The AI chatbot remains Arabic-only, regardless of the website language selection.
+
+Do not translate property names or real user-generated content automatically in a way that changes their meaning.
+
+Use a consistent localization system rather than manually duplicating pages.
+
+---
+
+# 14. USER DASHBOARD
+
+Create a clean and useful dashboard accessible through the unified account.
+
+Include:
+
+- My Profile.
+- Saved Homes.
+- Saved Roommates.
+- My Property Listings.
+- My Host Family Applications.
+- My Scholarship Applications.
+- My Published Opportunities.
+- Messages or Contact Requests, if supported.
+- Account Settings.
+
+Only display relevant sections when the user has data or permissions for them.
+
+The dashboard should be lightweight and easy to navigate.
+
+---
+
+# 15. FUNCTIONALITY & DATA MANAGEMENT
+
+All important buttons and forms must work.
+
+Implement or preserve:
+
+- Account registration.
+- Login and logout.
+- User profile management.
+- Housing search.
+- Filtering.
+- Listing details.
+- Saving favorites.
+- Property submission.
+- Roommate discovery.
+- Host Family listings.
+- Host Family applications.
+- Family Scholarship listings.
+- Scholarship applications.
+- Language switching.
+- Map interaction.
+- Chatbot interaction.
+- Reporting listings.
+
+Use the existing database and backend whenever possible.
+
+If some backend functionality is not available, implement the appropriate structure and clearly distinguish functional features from demo-only features.
+
+Do not present a fake payment as a real transaction.
+
+If payment integration is not configured, show the payment arrangement and clearly label the payment process as a demonstration or pending integration.
+
+Use secure authentication and validate user input.
+
+Protect private contact information.
+
+Do not expose sensitive user data publicly.
+
+---
+
+# 16. RESPONSIVE DESIGN
+
+The platform must work properly on:
+
+- Desktop.
+- Laptop.
+- Tablet.
+- Mobile phones.
+
+Mobile experience is especially important because many students will access the platform through their phones.
+
+Ensure:
+
+- Responsive navigation.
+- Readable text.
+- Proper image scaling.
+- Easy-to-use search filters.
+- Mobile-friendly listing cards.
+- Usable interactive maps.
+- Accessible forms.
+- Proper RTL behavior on mobile.
+
+---
+
+# 17. DEMO DATA & PRESENTATION
+
+Populate the application with enough sample data to demonstrate the full product experience.
+
+Include:
+
+- At least 10 housing listings across the specified locations.
+- Multiple roommate profiles.
+- At least two Host Family examples: one in Cairo and one in Benha.
+- Family Scholarship sample opportunities.
+- Different pricing and hosting arrangements.
+- Different accommodation types.
+- Different verification statuses.
+
+All fictional data must be clearly labeled as demo/sample data.
+
+Use realistic Egyptian names, locations, prices, and descriptions.
+
+Do not use real people's private information.
+
+Make sure the demo data is consistent across the homepage, search results, map, and listing details.
+
+---
+
+# 18. TECHNICAL QUALITY & TESTING
+
+The final application should be:
+
+- Cleanly structured.
+- Responsive.
+- Maintainable.
+- Secure.
+- Consistent.
+- Fast.
+- Easy to extend.
+
+Avoid unnecessary dependencies.
+
+Optimize image loading.
+
+Avoid duplicated components.
+
+Handle loading states and errors.
+
+Validate all forms.
+
+Check that navigation works.
+
+Check that Arabic RTL and English LTR both work.
+
+Check that the map and chatbot still work after changes.
+
+Check that proximity scores are calculated consistently.
+
+Check that demo listings appear correctly on the map.
+
+Check that unified account permissions work.
+
+Check that Host Family and Family Scholarship are separate and correctly represented.
+
+---
+
+# 19. IMPLEMENTATION PRIORITIES
+
+Work in the following order:
+
+**Phase 1 — Existing Project Inspection**
+
+- Inspect the existing project.
+- Identify working features and technical limitations.
+- Preserve existing integrations.
+
+**Phase 2 — Visual Identity**
+
+- Refine the palette.
+- Improve typography.
+- Add the logo.
+- Redesign the homepage.
+- Use realistic Egyptian images.
+- Improve layout and responsiveness.
+
+**Phase 3 — Localization**
+
+- Add Arabic / English switching.
+- Implement RTL / LTR correctly.
+- Keep the chatbot Arabic-only.
+
+**Phase 4 — Housing & Map**
+
+- Improve listing cards.
+- Improve search and filters.
+- Preserve the existing interactive map.
+- Implement university proximity matching.
+- Add the 10+ demo listings.
+
+**Phase 5 — Roommates**
+
+- Improve roommate profiles.
+- Add compatibility indicators.
+- Connect the experience to unified accounts.
+
+**Phase 6 — Host Family**
+
+- Build host family listings.
+- Add family information.
+- Add duration and payment arrangements.
+- Add applications.
+
+**Phase 7 — Family Scholarship**
+
+- Build scholarship opportunities.
+- Add family/sponsor profiles.
+- Add adult student applications.
+- Keep this service separate from paid accommodation.
+
+**Phase 8 — AI Chatbot**
+
+- Improve the Gemini-powered chatbot.
+- Ensure Arabic-only responses.
+- Connect it to available platform data.
+
+**Phase 9 — Dashboard & Integration**
+
+- Complete account functionality.
+- Connect all features.
+- Test the full user journey.
+
+---
+
+# 20. FINAL INSTRUCTIONS
+
+The result must look and feel like a real, professional Egyptian startup product.
+
+It should communicate:
+
+- Trust.
+- Comfort.
+- Belonging.
+- Simplicity.
+- Accessibility.
+- Transparency.
+- Safety.
+
+The platform should not look like a generic real estate template.
+
+It should have a recognizable identity and a welcoming personality.
+
+Most importantly:
+
+1. Do not destroy the existing working map.
+2. Do not remove the existing Gemini functionality.
+3. Do not remove the current chatbot.
+4. Do not create separate Seeker and Provider account modes.
+5. Keep all participants in Host Family and Family Scholarship features adults (18+).
+6. Make the Host Family feature clearly about adult accommodation, not child adoption.
+7. Keep Family Scholarship separate from paid Host Family accommodation.
+8. Use realistic Egyptian photography throughout the application.
+9. Make the chatbot Arabic-only.
+10. Provide a visible Arabic / English language switcher for the website.
+11. Do not invent real properties, real verification, real payments, or real scholarship availability.
+12. Implement actual functionality wherever the existing architecture supports it.
+
+Start by inspecting the existing project, then implement the improvements directly in Google AI Studio Build mode.
+
+Do not simply return a design proposal or a list of recommendations.
+
+Build, integrate, and test the actual application.
+
+At the end, provide a concise implementation report explaining:
+
+- What was successfully implemented.
+- What existing functionality was preserved.
+- What still needs API, database, or external service configuration.
+- What is currently demo data.
+- Any known bugs or limitations.
+
+ملاحظتين مهمين قبل التنفيذ:
+
+1. خليت الـHost Family للطلاب والبالغين فقط (18+)، ووضحت إنها استضافة وإقامة وليست تبنّي أطفال أو وصاية؛ عشان الفكرة تكون واضحة وآمنة قانونيًا.
+2. خليت الـProximity Match نسبة توافق مبنية على المسافة الفعلية، مش احتمال إن السكن مناسب لك. وده أدق في عرض الميزة للمستخدم.
+
+الخطوة الأفضل بعد ما Google AI Studio ينفّذ البرومبت: نراجع الـHomepage والـMap والـHost Family أولًا، وبعدها نختبر باقي الوظائف واحدة واحدة.
+
+If you want, I can:
+
+- Add detailed steps to improve the chatbot
+- Expand on Host Family feature development
+- Describe the unified account system implementation
